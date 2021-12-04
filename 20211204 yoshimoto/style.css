@@ -2,13 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 0 30px;
+
   color: white;
 }
 .header-ttl {
   width: 10%;
-  height: 100%;
 }
 .header-nav-list {
   display: flex;
@@ -120,7 +118,7 @@ nav ul li a {
 }
 .service {
   width: 80%;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 .service-content {
   display: flex;
@@ -181,6 +179,8 @@ nav ul li a {
 .blog-card {
   width: 30%;
   position: relative;
+  background: white;
+  border-radius: 15px;
 }
 .blog-card-font {
   position: absolute;
@@ -193,19 +193,18 @@ nav ul li a {
 }
 .blog-card-img {
   width: 100%;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .blog-content {
-  padding: 15px 25px;
+  padding: 0px 10px;
 }
 .blog-content-tit {
-  font-size: 18px;
-  margin-bottom: 30px;
   font-weight: 400;
 }
 .blog-tag {
   font-size: 14px;
-  text-align: right;
+
   display: flex;
   justify-content: space-between;
 }
@@ -218,12 +217,26 @@ nav ul li a {
 
   color: gray;
 }
+.blog-button {
+  background-color: white;
+  width: 200px;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #b8123e;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 40px;
+  margin: 50px auto;
+  border: 3px solid #b8123e;
+}
 .company {
   width: 60%;
   margin: 20px auto;
 }
 table {
-  width: 60%;
+  width: 80%;
   border-collapse: collapse;
   border: 1px solid black;
 }
