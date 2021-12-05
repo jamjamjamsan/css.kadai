@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin: 15px 30px 0;
   color: white;
 }
 .header-ttl {
@@ -29,15 +29,19 @@ nav ul li a {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 80%;
-  padding: 50px;
+  width: 100%;
 }
 .firstview-img {
   position: absolute;
-  left: 25%;
-  width: 80%;
+  right: 0%;
+  width: 60%;
   height: 100%;
   z-index: 1;
+}
+.firstview-all {
+  margin-left: 250px;
+  position: relative;
+  z-index: 2;
 }
 .firstview-tit {
   font-family: "Indie Flower", cursive;
@@ -100,7 +104,7 @@ nav ul li a {
   display: flex;
 }
 .about {
-  background: gray;
+  background: rgb(235, 233, 233);
   padding: 15px;
 }
 .about-first {
@@ -136,6 +140,11 @@ nav ul li a {
 
 .service-main p {
   color: white;
+  font-size: 18px;
+}
+.service-main p:nth-child(3) {
+  text-align: left;
+  margin: 30px;
 }
 .service-side-up {
   background: rgb(160, 51, 87);
@@ -143,20 +152,25 @@ nav ul li a {
   display: flex;
   align-items: center;
 }
-
+.service-side-up div {
+  margin: 15px;
+}
 .service-side {
   width: 50%;
 }
 .service-side p {
   color: white;
   display: block;
+  font-size: 18px;
 }
 .side-up {
   width: 30%;
   vertical-align: bottom;
+  margin: 15px;
 }
 .side-down {
   width: 30%;
+  margin: 15px;
 }
 .service-side-down {
   background: rgb(121, 52, 75);
@@ -164,12 +178,13 @@ nav ul li a {
   display: flex;
   align-items: center;
 }
-.service-side-down img {
-  padding: 0;
-  margin: 0;
+.service-side-down div {
+  margin: 15px;
 }
+
 .service-main-img {
-  width: 50%;
+  width: 30%;
+  margin: 30px auto 0;
 }
 .blog {
   background: rgb(209, 207, 207);
@@ -288,7 +303,7 @@ table tr {
 .line {
   margin-left: 50%;
   width: 5px;
-  height: 150px;
+  height: 50px;
   background-color: #b8123e;
 }
 .inquiry {
